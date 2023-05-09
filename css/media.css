@@ -1,0 +1,73 @@
+@media (max-width: 1440px) {
+    
+}
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 1024px) {
+    .hero-img{
+        width: 300px;
+        height: 350px;
+    }
+    .product-img{
+        width: 300px;
+        height: 350px;
+    }
+    .management-text p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        color: #22343D;
+        width: 430px;
+    }
+    .management-subtitle p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #22343D;
+        width: 270px;
+    }
+}
+@media (max-width: 992px) {
+    .management-text p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #22343D;
+        width: 306px;
+    }
+}
+@media (max-width: 768px) {
+    .header-nav{
+        display: none;
+    }
+    .hero-text h1{
+        width: 330px;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 45px;
+        color: #22343D;
+    }
+    .hero-text p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        width: 300px;
+        color: #22343D;
+        margin: 20px 0;
+    }
+    .product-text p{
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 19px;
+        width: 342px;
+        color: #22343D;
+    }
+    .management-img{
+        width: 300px;
+        height: 350px;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}
