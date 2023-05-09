@@ -130,7 +130,6 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 
 }
 
@@ -165,7 +164,6 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     margin: 50px 0;
 }
 
@@ -207,7 +205,6 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     margin: 70px 0 0 0;
 }
 
@@ -231,7 +228,8 @@ body, html {
     color: #22343D;
     width: 486px;
 }
-.management-subtitle p{
+
+.management-subtitle p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -239,17 +237,19 @@ body, html {
     margin: 20px 0 20px 25px;
     color: #22343D;
 }
-.management-subtitle{
+
+.management-subtitle {
     display: flex;
     align-items: center;
 }
-.management{
+
+.management {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     margin: 100px 0 0 0;
 }
+
 #menu__toggle {
     opacity: 0;
 }
@@ -257,14 +257,17 @@ body, html {
 #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
 }
+
 #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
 }
+
 #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
 }
+
 #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     right: 0;
@@ -297,6 +300,7 @@ body, html {
     content: '';
     top: -8px;
 }
+
 .menu__btn > span::after {
     content: '';
     top: 8px;
@@ -328,11 +332,12 @@ body, html {
     text-decoration: none;
     transition-duration: .25s;
 }
+
 .menu__item:hover {
     background-color: #CFD8DC;
 }
-.hamburger-menu{
+
+.hamburger-menu {
     display: none;
 }
-
 
