@@ -17,7 +17,7 @@
         display: none;
     }
     .hamburger-menu{
-        display: block;
+        digit splay: block;
     }
 }
 @media (max-width: 768px) {
